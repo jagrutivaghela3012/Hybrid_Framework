@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[no of rows in TCsheet ::5no of rows in TSsheet::18]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[New Role with id 498 Created Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-16T19:06:50 IST" name="Default suite" finished-at="2023-04-16T19:07:01 IST" duration-ms="11663">
+    <groups>
+    </groups>
+    <test started-at="2023-04-16T19:06:50 IST" name="Default test" finished-at="2023-04-16T19:07:01 IST" duration-ms="11663">
+      <class name="driverfactory.PBDriverScript">
+        <test-method is-config="true" signature="setup()[pri:0, instance:driverfactory.PBDriverScript@1ed4ae0f]" started-at="2023-04-16T19:06:50 IST" name="setup" finished-at="2023-04-16T19:06:54 IST" duration-ms="4534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="startTest()[pri:0, instance:driverfactory.PBDriverScript@1ed4ae0f]" started-at="2023-04-16T19:06:54 IST" name="startTest" finished-at="2023-04-16T19:07:00 IST" duration-ms="5788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[no of rows in TCsheet ::5no of rows in TSsheet::18]]>
+            </line>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[New Role with id 498 Created Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:driverfactory.PBDriverScript@1ed4ae0f]" started-at="2023-04-16T19:07:00 IST" name="teardown" finished-at="2023-04-16T19:07:01 IST" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- driverfactory.PBDriverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
